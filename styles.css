@@ -709,7 +709,19 @@ img[alt="team"] {
 
 .read-more-div {
     text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 10px;
 }
+
+.read-more-div > a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #3a70e3;
+}
+
+
 
 .services h3 {
     color: #3a70e3;
@@ -781,6 +793,7 @@ img[alt="team"] {
     .services {}
 
     .services-desc {
+        padding: 65px;
         width: 100%;
     }
 
@@ -817,6 +830,7 @@ img[alt="team"] {
 
 
     .services-desc {
+        padding: 65px;
         width: 100%;
     }
 
@@ -847,6 +861,7 @@ img[alt="team"] {
     }
 
     .services-text-div {
+        padding: 65px;
         width: 100%;
     }
 
@@ -863,6 +878,7 @@ img[alt="team"] {
 
 
     .services-desc {
+        padding: 65px;
         width: 100%;
     }
 }
@@ -873,6 +889,8 @@ img[alt="team"] {
     }
 
     .services-text-div {
+        padding: 65px;
+
         width: 100%;
 
     }
@@ -883,6 +901,7 @@ img[alt="team"] {
     }
 
     .services-desc {
+        padding: 65px;
         width: 100%;
     }
 
@@ -982,7 +1001,7 @@ img[alt="we-do"] {
 
     .what-we-do-headings {
         width: 100%;
-        padding: 0;
+        padding: 70px;
     }
 
     .what-we-do-text-div {
@@ -1010,7 +1029,7 @@ img[alt="we-do"] {
 
     .what-we-do-headings {
         width: 100%;
-        padding: 0;
+        padding: 70px;
     }
 
     .what-we-do-text-div {
@@ -1050,7 +1069,7 @@ img[alt="we-do"] {
 
     .what-we-do-headings {
         width: 100%;
-        padding: 0;
+        padding: 70px;
     }
 
     .what-we-do-text-div {
@@ -1077,7 +1096,7 @@ img[alt="we-do"] {
 
     .what-we-do-headings {
         width: 100%;
-        padding: 0;
+        padding: 70px;
     }
 
     .what-we-do-text-div {
@@ -1199,6 +1218,7 @@ img[alt="client"] {
     font-size: 44px;
     width: 53%;
     font-weight: 400;
+    padding-bottom: 17px;
 }
 
 .collaboration p {
