@@ -217,14 +217,14 @@ img[alt="brand-img"] {
 
 .mydream-one {
     position: absolute;
-    bottom: -13px;
-    right: 293px;
+    bottom: -12px;
+    right: 426px;
 }
 
 .mydream-two {
     position: absolute;
-    left: 254px;
-    bottom: 605px;
+    left: 417px;
+    bottom: 440px;
 }
 
 /*  my  dream media query*/
@@ -713,6 +713,7 @@ img[alt="team"] {
     justify-content: flex-end;
     align-items: center;
     column-gap: 10px;
+    padding-top: 27px;
 }
 
 .read-more-div > a{
